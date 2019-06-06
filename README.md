@@ -17,6 +17,8 @@
 * Currently all analysied results are saved in SessionStorage which can be stored in some proper database like MySQL to persist the data
 * More test coverage could be achieved (only tests for redux actions/reducers were covered)
 * ABN verifications could be introduced (but the registration of the ABN lookup web services is still undergoing)
+* Error boundary as suggested can be introduced to avoid complete page failure
+* Error handling could be implemented more to cover all cases. (currently only the 401 returned by the endpoint was covered)
 
 # Suggestions on endpoints
 * Batch uploading should be implemented for uploading multiple files and retrieving results for multiple files (don't know if it is because of the limitation of the free trail account)
